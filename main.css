@@ -1,0 +1,58 @@
+body {
+	background-color: white;
+	text-align: center;
+	padding: 55px;
+	font-family: "microsoft yahei";
+}
+.center {
+	text-align: left;
+}
+table {
+	width: 100%;
+	max-width: 1600px;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+th{background:#eee;}
+th,td {
+	color: #444;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+.grip {
+	width:0;
+	height:0;
+	border-width:10px;
+	border-style:solid;
+	border-color:#666 transparent transparent transparent;
+	margin-left:-6px;
+	margin-top:-3px;
+	position: relative;
+	z-index: 88;
+	cursor: e-resize;
+}
+.grip:hover {
+	border-color:#333 transparent transparent transparent;
+}
+.dragging .grip {
+	border-color:#000 transparent transparent transparent;
+}
+
+.sampleText {
+	position: relative;
+	width: 100%;
+}
+.dotted {
+	background-image: url('../img/dotted.png');
+	background-repeat: repeat-y;
+}
+input.check {
+}
+#sample2Txt {
+	float: right;
+}
+label {
+	color: #0361ae;
+}
